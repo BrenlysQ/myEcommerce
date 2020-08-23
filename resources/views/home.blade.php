@@ -27,9 +27,8 @@
 						<div class="carousel-caption p-lg-5 p-sm-4 p-3">
 							<p>Get flat
 								<span>10%</span> Cashback</p>
-							<h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">The
-								<span>Big</span>
-								Sale
+							<h3 class="font-weight-bold pt-2 pb-lg-5 pb-4">
+								<span>OFFER</span>
 							</h3>
 							<a class="button2" href="product.html">Shop Now </a>
 						</div>
@@ -768,7 +767,4 @@
 	</div>
 @endsection
 </body>
-    
-
-
 </html>

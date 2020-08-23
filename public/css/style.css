@@ -1366,7 +1366,7 @@ ul.w3_short {
 /*-- faq-page --*/
 
 h3.w3-head {
-    color: #15ec0e;
+    color: #1bbde6;
     font-size: 28px;
     letter-spacing: 1px;
 }
@@ -1403,7 +1403,7 @@ li.subitem1 p {
     width: 90%;
     border: none;
     padding: 16px;
-    border-bottom: solid 1px #06ff44;
+    border-bottom: solid 1px #e6bb2f;
     height: 150px;
     outline: none;
     resize: none;
@@ -1441,7 +1441,7 @@ li.subitem1 p {
 .wthree-help a {
     color: #fff;
     padding: 10px 20px;
-    background: #0879c9;
+    background: #e0a21c;
 }
 
 /*-- //help page --*/
