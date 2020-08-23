@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('home', function () {
+Route::get('/', function () {
     return view('home');
 });
 
@@ -36,7 +36,7 @@ Route::post('message', function () {
     Mail::send("emails.message", $data, function($message) use ($data){
         $message->from($data['email'], $data['name'])
                 ->to('brenlysandreina@gmail.com','Brens')
-                ->subject($data['subject']);
+                ->subject($data['bodymessage']);
 });
-    return back()->whith('flash', 'Tu mensaje ha sido recibido');
+    return back()->with('flash', 'Tu mensaje ha sido recibido');
 })->name('message');

@@ -2,7 +2,6 @@
 <html lang="es">
 
 <head>
-	<title> Bq Electronics</title>
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
@@ -200,7 +199,7 @@
 				<!-- logo -->
 				<div class="col-md-3 logo_agile">
 					<h1 class="text-center">
-						<a href="home" class="font-weight-bold font-italic">
+						<a href="/" class="font-weight-bold font-italic">
 							<img src="images/logo2.png" alt=" right " class="img-fluid">Electronics
 						</a>
 					</h1>
@@ -264,7 +263,7 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto text-center mr-xl-5">
 						<li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
-							<a class="nav-link" href="home">Home
+							<a class="nav-link" href="/">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>

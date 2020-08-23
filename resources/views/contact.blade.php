@@ -80,21 +80,22 @@
             <form action="{{route('message')}}" method="post">
                 {{ csrf_field() }}
 				<div class="contact-grids1 w3agile-6">
+					@if(session()->has('flash'))
+					<div class="alert alert-success alert-dismissible fade show" role="alert">
+						<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						 {{ session()->get('flash') }}
+					</div> 
+                    @endif
 					<div class="row">
-                        @if(session()->has('flash'))
-                            
-                        <div class="alert alert-success" role="alert">
-                            {{ session()->get('flash') }}
-                        </div>  
-                        @endif
-
-						<div class="col-md-6 col-sm-6 contact-form1 form-group">
+					<div class="col-md-6 col-sm-6 contact-form1 form-group">
 							<label class="col-form-label">Name</label>
-							<input type="text" class="form-control" name="Name" placeholder="" required="">
+							<input type="text" class="form-control" name="name" placeholder="" required="">
 						</div>
 						<div class="col-md-6 col-sm-6 contact-form1 form-group">
 							<label class="col-form-label">E-mail</label>
-							<input type="email" class="form-control" name="Email" placeholder="" required="">
+							<input type="email" class="form-control" name="email" placeholder="" required="">
 						</div>
 					</div>
 					<div class="contact-me animated wow slideInUp form-group">
